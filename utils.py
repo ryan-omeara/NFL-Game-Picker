@@ -38,7 +38,6 @@ def assemble_features(schedules: pd.DataFrame) -> list:
         numeric_features
         + roof_features
         + surface_features
-        + team_features
     )
     return features
 
